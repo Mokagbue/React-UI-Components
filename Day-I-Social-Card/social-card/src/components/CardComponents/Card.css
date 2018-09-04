@@ -1,9 +1,15 @@
 /* All styles for your Card Components live here */
 
-.Image {
-    width: 500px;
-    height: 270px;
-    margin-left: 8%;
+.CardCont {
+    display: flex;
+    flex-direction: column;
+}
+.FavIcon {
+    width: 90%;
+    height: 90%;
+    margin-left: 10%;
+    margin-bottom: 20px;
+    
 }
 .CardH1 {
     font-size: .9rem;
