@@ -1,1 +1,15 @@
 /* All styles for your header Components live here */
+.HCBox {
+    width: 475px;
+    height: 100px;
+    margin-left: 10%;
+}
+.LamHeader {
+    margin-left: 10%;
+    font-weight: normal;
+    font-size: 1.1rem;
+}
+.ThumbNailImg {
+    margin-left: 5%;
+    display: flex;
+}

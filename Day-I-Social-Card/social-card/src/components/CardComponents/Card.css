@@ -1,1 +1,20 @@
 /* All styles for your Card Components live here */
+
+.Image {
+    width: 500px;
+    height: 270px;
+    margin-left: 8%;
+}
+.CardH1 {
+    font-size: .9rem;
+    margin-left: 10%;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+.CardContentP {
+    border: 1px solid grey;
+    padding: 10px;
+    font-size: .8rem;
+    margin-left: 10%;
+}

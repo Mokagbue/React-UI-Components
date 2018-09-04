@@ -1,5 +1,17 @@
 body {
-  margin: 0;
+  margin: auto;
   padding: 0.4rem;
   font-family: sans-serif;
+  width: 550px;
+  height: 740px;
+  border: 1px solid blue;
+}
+p {
+  color: black;
+  border: 1px solid pink;
+}
+h1 {
+  font-size: 1rem;
+  font-weight: bold;
+
 }

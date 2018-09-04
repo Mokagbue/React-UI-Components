@@ -2,6 +2,9 @@ import React from 'react';
 import './App.css';
 import HeaderContent from './components/HeaderComponents/HeaderContent.js';
 import HeaderTitle from './components/HeaderComponents/HeaderTitle.js';
+import FavIcon from './components/CardComponents/CardContainer.js';
+import CardContent from './components/CardComponents/CardContent.js';
+import ThumbNail from './components/HeaderComponents/ImageThumbnail.js';
 
 
 const App = () => {
@@ -16,12 +19,17 @@ const App = () => {
       </p>
       <p>
         <strong>
-          <HeaderContent />
-          <HeaderTitle />
+         
+          
           // Don't forget to `default export` your components and import them here
           // inside of this file in order to make them work.
         </strong>
       </p>
+      <ThumbNail />
+      <HeaderTitle />
+      <HeaderContent />
+      <FavIcon />
+      <CardContent />
     </div>
   );
 };
